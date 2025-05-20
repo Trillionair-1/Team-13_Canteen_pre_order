@@ -1,0 +1,105 @@
+/* ===== MENU SECTION ===== */
+
+/* Menu Container - Light background */
+.menu {
+    background-color: #f9f5f0; /* Light warm background */
+}
+
+/* Menu Heading - Centered with appropriate spacing */
+.menu h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Menu Categories Grid - Responsive grid layout */
+.menu-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 30px; /* Spacing between category cards */
+}
+
+/* Category Card - Card-like styling with shadow */
+.category {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Category Heading - Underlined for visual separation */
+.category h3 {
+    border-bottom: 2px solid #f0e4d7; /* Light brown border */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Menu Items Container - Grid layout for items */
+.menu-items {
+    display: grid;
+    gap: 20px; /* Spacing between menu items */
+}
+
+/* Menu Item - Individual food item with flex layout */
+.menu-item {
+    position: relative;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #e0e0e0; /* Subtle separator */
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Last Menu Item - Removes bottom border */
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+/* Checkbox Container - Spacing for selection checkbox */
+.menu-item-checkbox {
+    margin-right: 15px;
+    padding-top: 5px;
+}
+
+/* Checkbox Input - Styled checkbox with brand color */
+.menu-item-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #795548; /* Brown color for checked state */
+}
+
+/* Menu Item Details - Container for item information */
+.menu-item-details {
+    flex: 1; /* Takes available space */
+}
+
+/* Menu Item Title - Spacing for item name */
+.menu-item h4 {
+    margin-bottom: 5px;
+}
+
+/* Menu Item Description - Lighter text for description */
+.menu-item p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Price - Bold text for emphasis */
+.price {
+    font-weight: bold;
+    color: #5d4037; /* Brown color for prices */
+}
+
+/* Order Actions - Container for order button */
+.order-actions {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Order Button - Prominent styling for primary action */
+.order-btn {
+    font-size: 18px;
+    padding: 12px 30px;
+    color: #fff;
+    background-color: #5d4037; /* Dark brown for emphasis */
+}
+
