@@ -89,4 +89,83 @@ nav ul li a.active {
   background-color: #f0e4d7;
   color: #5d4037;
 }
+/* ===== LOGIN SECTION ===== */
+/* Login Section Container */
+.login-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 200px); /* Full viewport minus header/footer */
+    background-color: #f9f5f0; /* Light warm background */
+    padding: 60px 0;
+}
+
+/* Centered Container */
+.login-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Login Form Card */
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Login Heading */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #5d4037;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Form Footer Links */
+.form-footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.form-footer a {
+    color: #795548;
+    font-weight: bold;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
 
