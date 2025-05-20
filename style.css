@@ -255,3 +255,65 @@ nav ul li a.active {
 .back-link:hover {
     text-decoration: underline;
 }
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablet Breakpoint */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
+
+    .hero {
+        padding: 100px 0;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+}
+
+/* Mobile Breakpoint */
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .category {
+        padding: 15px;
+    }
+
+    .login-container,
+    .add-item-container {
+        padding: 20px;
+    }
+}
