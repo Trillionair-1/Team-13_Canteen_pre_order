@@ -89,6 +89,29 @@ nav ul li a.active {
   background-color: #f0e4d7;
   color: #5d4037;
 }
+/* ===== HERO SECTION ===== */
+.hero {
+  background: linear-gradient(#795548, #795548);
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
 /* ===== LOGIN SECTION ===== */
 .login-section {
     display: flex;
@@ -317,3 +340,5 @@ nav ul li a.active {
         padding: 20px;
     }
 }
+
+
