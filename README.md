@@ -4,7 +4,7 @@ A responsive web application that allows users to pre-order meals from the cante
 
 ## 🚀 Features
 
-- Landing page with hero & about sections
+- Landing page with hero,about sections and menu
 - Dynamic menu page with categories
 - Staff login page for admin access
 - Admin panel to add new menu items
